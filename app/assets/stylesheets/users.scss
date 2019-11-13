@@ -9,13 +9,12 @@
     background-color: #ddd;
     
     .header{
-      height: 100px;
       background-color: beige;
       text-align: center;
+      height: 100px;
 
       .title{
         font-size: 50px;
-        height: 100px;
         padding-top: 10px;
       }
     }
@@ -25,6 +24,7 @@
       height: calc(100% - 100px);
       width: 800px;
       margin: 0 auto;
+      position: relative;
       
       .pictures{
         width: 600px;
@@ -51,11 +51,21 @@
       .elapsed_time{
         height: 50px;
         font-size: 25px;
+        color: white;
+        position: absolute;
+        left: 50%;
+        transform : translate(-50%);
+        z-index: 1;
       }
 
       .questions_number{
         height: 50px;
         font-size: 25px;
+        color: white;
+        position: absolute;
+        left: 50%;
+        transform : translate(-50%, 50px);
+        z-index: 1;
       }
 
       .game-screen{
