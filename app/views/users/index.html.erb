@@ -53,43 +53,6 @@
       </div>
     </div>
   </transition>
-<!--      <div class="main-content">
-        <div class="pictures">
-          <div class="true-picture">
-            <transition name="fade">
-              <span v-if="record_time >= 10" ><%= image_tag "asian-1294263_640.png", :size => "300x300"%></span>
-            </transition>
-          </div>
-          <div class="false-picture">
-          </div>
-        </div>
-        <div class="elapsed_time">
-          <span class="time">記録：{{record_time}}秒</span>
-        </div>
-        <div class="questions_number">
-          <span class="time">残り：{{question_count}}問</span>
-        </div>
-        <div class="game-screen">
-          <div v-if="playing" class="displayed-character">
-            {{ question }}
-          </div>
-          <div v-if="!playing" class="displayed-character">
-            おわりー
-          </div>
-        </div>
-        <form class="input-boxes" name="form">
-          <input v-on:input="questions" type="text" class="input-box" name="answer" id="input-typing">
-        </form>
-        <div class="btns">
-          <button v-if="!playing" type="button" class="start-btn" @click="start()">はじめ！</button><%#v-on:click は @click で省略%>
-          <button v-if="playing" type="button" class="finish-btn" @click="end()">おわり！</button>
-        </div>
-        ※半角入力でやってね♪
-      </div>
-    </div>
-  </transition>
-</div>
--->
 </div>
 
 <%= javascript_pack_tag 'hello_vue' %>
