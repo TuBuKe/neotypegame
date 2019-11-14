@@ -48,6 +48,16 @@
         }
       }
 
+      .menu_button{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        border-radius: 50%;
+        cursor: pointer;
+        outline: none;
+      }
+
       .elapsed_time{
         height: 50px;
         font-size: 25px;
