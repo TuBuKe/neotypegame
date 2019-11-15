@@ -58,6 +58,16 @@
         outline: none;
       }
 
+      .secret_button{
+        position: absolute;
+        top: 22px;
+        left: 0;
+        z-index: 1;
+        border-radius: 50%;
+        cursor: pointer;
+        outline: none;
+      }
+
       .elapsed_time{
         height: 50px;
         font-size: 25px;
